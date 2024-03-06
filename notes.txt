@@ -1,0 +1,7 @@
+blm pass
+640 ngpassin
+768 ngpassin
+1024 pass
+
+390x844
+1728x1140

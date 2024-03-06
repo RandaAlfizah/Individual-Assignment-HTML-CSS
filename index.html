@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Individual Assignment HTML CSS</title>
+</head>
+
+<body>
+    <!-- frame 1 -->
+    <div class="lg:flex">
+    <div class="container max-w-md mx-auto sm:max-w-xl md:max-w-5xl px-4 my-3 flex-col content-start px-[24px] py-0 gap-[10px]">
+        <img class="w-80 h-48 sm:w-184 sm:h-72 md:w-184 md:h-80 w-full rounded-xl shadow-xl object-cover object-center flex-none order-0 self-stretch flex-grow-0 sm:mt-8 lg:hidden" src="Login Art.png" alt="Login Art">
+    </div>
+    <!-- login form -->
+    <div class="container max-w-md mx-auto sm:max-w-xl md:max-w-5xl flex flex-col items-start px-[24px] py-0 gap-[24px] lg:mt-40">
+        <!--intro-->
+        <h3 class="font-[SF_Pro_Rounded] text-2xl font-semibold leading-[24px] tracking-[0.01em] text-left text-[#0C1421] sm:text-4xl md:text-5xl lg:text-5xl">Welcome Back 👋</h3>
+        <p class="font-[SF_Pro_Display] font-normal leading-[24px] tracking-[0.01em] text-left text-[#312957]  text-[15px]  sm:text-[19px]  md:text-[21px]">Today is a new day. It's your day. You shape it.
+            Sign in to start managing your projects.</p>
+<!-- end intro -->
+    <!-- form -->
+    <form action="#" method="post">
+        <div>
+        <div>
+        <label class="py-4 w-[36px] h-[14px] text-sm leading-[100%] flex items-center tracking-[0.01em] text-[#0C1421]" for="email">Email:</label>
+        </div>
+        <input class="w-[342px] h-[42px] sm:w-[535px] md:w-[735px] bg-[#F3F7FB] border-[1px] border-solid border-[#D4D7E3] rounded-[8px] px-3" type="Email" placeholder="Example@email.com">
+    </div>
+
+    <div>
+        <div>
+        <label class="py-4 w-[36px] h-[14px] text-sm leading-[100%] flex items-center tracking-[0.01em] text-[#0C1421]" for="Password">Password:</label>
+        </div>
+        <input  class="w-[342px] h-[42px]  sm:w-[535px] md:w-[735px] bg-[#F3F7FB] border-[1px] border-solid border-[#D4D7E3] rounded-[8px]  px-3" type="password" placeholder="At Least 8 Characters">
+    </div>
+        <a class="px-0.5 w-[115px] h-[14px] text-sm leading-[100%] tracking-[0.01em] text-right text-[#1E4AE9]" href="#"><p class="mb-4">Forgot Password?</p></a>
+    <button class="sm:w-[535px] md:w-[735px] text-center justify-between items-center text-neutral-100 px-0 pb-[1px] gap-[10px] w-[342px] h-[44px] bg-[#162D3A] rounded-[12px]"><p>Sign in</p> </button>
+    <p class="text-center h-[26px] text-base leading-[160%] tracking-[0.01em] text-[#313957] mt-4 mb-48">Don't you have an account? <a href="#" class="text-[#1E4AE9]">Sign up</a></p>
+    <p class="text-center h-[46px] text-sm leading-[100%] tracking-[0.01em] text-[#959CB6]"> © 2024 ALL RIGHTS RESERVED </p>
+    </form>
+</div>
+<div class="hidden lg:block flex flex-row items-start p-0 w-[816px] h-[1076px] flex-none order-1 self-stretch flex-grow rounded-[24px] shadow-2xl my-6 mx-6">
+<img src="Login Art.png" alt="cape">
+</div>
+</div>
+
+</body>
+</html>
